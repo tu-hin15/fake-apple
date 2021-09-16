@@ -1,0 +1,174 @@
+.footer-flex{
+    background: #f5f5f7;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    min-width: 1024px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-content{
+    margin: 0 auto;
+    padding: 0 22px;
+    max-width: 984px;
+}
+
+.footnote-content{
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    padding: 17px 0 11px;
+    border-bottom: 1px solid #d2d2d7;
+}
+
+.footnote-content ul{
+    list-style: none;
+}
+
+.footnote-content li{
+    padding-bottom: 0.8em;
+    color: #86868B;
+}
+
+.footnote-content li a{
+    color: #515154;
+    text-decoration: none;
+}
+
+.footnote-content li a:hover{
+    text-decoration: underline;
+}
+
+.directory{
+    display: flex;
+    padding-top: 20px;
+    flex-wrap: nowrap;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.directory-column{
+    flex-basis: 25%;
+}
+
+.directory-column-section-title{
+    font-size: 12px;
+    line-height: 1.33337;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 600;
+    margin-right: 20px;
+    margin-bottom: .8em;
+}
+
+.directory-column-section-list{
+    list-style: none;
+}
+
+.directory-column-section-item{
+    display: block;
+    margin-bottom: .8em;
+}
+
+.directory-column-section-link{
+    color: #515154;
+    text-decoration: none;
+}
+
+.directory-column-section-link:hover{
+    text-decoration: underline;
+}
+
+.directory-column-section ~ .directory-column-section{
+    padding-top: 24px;
+}
+
+.footer{
+    padding-top: 34px;
+    border-top: none;
+    padding-bottom: 21px;
+    color: #86868b;
+}
+
+.footer-shop{
+    margin-bottom: 7px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #d2d2d7;
+}
+
+.footer-shop a{
+    color: #06c;
+    text-decoration: none;
+}
+
+.footer-shop a:hover{
+    text-decoration: underline;
+}
+
+.footer-locale{
+    float: right;
+    margin-top: 5px;
+    position: relative;
+    top: -3px;
+    z-index: 2;
+    white-space: nowrap;
+}
+
+.footer-locale a{
+    color: #515154;
+    text-decoration: none;
+}
+
+.footer-locale a:hover{
+    text-decoration: underline;
+}
+
+.footer-legal{
+    position: relative;
+    top: -3px;
+    z-index: 1;
+}
+
+.footer-legal-row{
+    display: flex;
+}
+
+.footer-legal-coryright{
+    margin: 5px 30px 0 0;
+    position: relative;
+    top: 0px;
+    z-index: 1;
+}
+
+.footer-legal-links{
+    margin: 5px 30px 0 0;
+    position: relative;
+    top: -5px;
+    z-index: 1;
+}
+
+.footer-legal-link{
+    border-right: 1px solid #d2d2d7;
+    margin-right: 7px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-top: 5px;
+    white-space: nowrap;
+    color: #515154;
+    text-decoration: none;
+}
+
+.footer-legal-link:hover{
+    text-decoration: underline;
+}
